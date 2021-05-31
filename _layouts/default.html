@@ -27,12 +27,12 @@
         <div class="download-bar">
         <div class="inner">
           <a href="{{ site.github.zip_url }}" ><span>Download</span></a>
-          <a href="{{ site.github.tar_url }}" class="download-button"><span>Download</span></a>
-          <a href="http://hcr2.info" class="code">hcr2.info <span>Download</span></a>
+          <a href="{{ site.github.tar_url }}" class="blc"><span>Download</span></a>
+          <a href="http://hcr2.info">hcr2.info <span>Download</span></a>
           <a href="{{ site.github.tar_url }}" class="download-button tar"><span>Download</span></a>
           <a href="{{ site.github.zip_url }}" class="download-button zip"><span>Download</span></a>
            {% if site.show_downloads %}         {% endif %}
-          <a href="{{ site.github.repository_url }}" class="code">View {{ site.title | default: site.github.repository_name }} on GitHub</a>
+          <a href="{{ site.github.repository_url }}">View {{ site.title | default: site.github.repository_name }} on GitHub</a>
         </div>
         <span class="blc"></span><span class="trc"></span>
         </div>
@@ -59,8 +59,8 @@
   </div>
   <div class="current-section">
     <a href="#top">Scroll to top</a>
-    <a href="{{ site.github.tar_url }}" class="tar">tar</a><a href="{{ site.github.zip_url }}" class="zip">zip</a><a href="http://hcr2.info" class="code">hcr2.info code</a>
-    <a href="{{ site.github.tar_url }}" class="button">tar</a><a href="{{ site.github.zip_url }}" class="download-button zip">zip</a><a href="" class="code">source code</a>    <p class="name"></p>
+    <a href="{{ site.github.tar_url }}" class="tar">tar</a><a href="{{ site.github.zip_url }}" class="zip">zip</a><a href="http://hcr2.info">hcr2.info</a>
+    <a href="{{ site.github.tar_url }}" class="creds">tar</a><a href="{{ site.github.zip_url }}" class="trc">zip</a><a href="" class="blc">source code</a>    <p class="name"></p>
   </div>
 
   {% if site.google_analytics %}
