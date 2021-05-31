@@ -30,12 +30,12 @@
           <a href="{{ site.github.tar_url }}" class="blc"><span>blc | </span></a>
           <a href="{{ site.github.tar_url }}" class="trc"><span>trc | </span></a>
           <a href="http://hcr2.info">hcr2.info <span>hcr2 |</span></a> -->
-          {{lineone}}
-          <a href="http://hcr2.info" class="download-button"><span>{{buttonone}}</span></a>
+          {{site.lineone}}
+          <a href="http://hcr2.info" class="download-button"><span>{{site.buttonone}}</span></a>
           
            {% if site.show_downloads %}         {% endif %}
           <!-- <a href="{{ site.github.repository_url }}">View {{ site.title | default: site.github.repository_name }} on GitHub</a> -->
-          {{linetwo}}
+          {{site.linetwo}}
         </div>
         <span class="blc"></span><span class="trc"></span>
          test
@@ -57,7 +57,8 @@
 
       </div>
       <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a><br>
+        {{site.footerone}}<br>{{site.footertwo}}</small>
       </div>
     </footer>
   </div>
